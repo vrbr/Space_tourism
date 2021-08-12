@@ -259,3 +259,28 @@ foreignObject {
     font-size: 22px;
     color: #036CCA;
 }
+
+/*reservation*/
+.reservation {
+    min-height: 100vh;
+    background: url("../images/reservation-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.reservation__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.reservation__text {
+    margin-top: 100px;
+    margin-right: 52px;
+    margin-left: auto;
+    width: 165px;
+    font-size: 14px;
+    line-height: 18px;
+}
+.reservation__text + .reservation__text {
+    margin-right: 0;
+    margin-left: 0;
+}
