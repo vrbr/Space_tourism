@@ -224,3 +224,38 @@ button {
     font-size: 12px;
     line-height: 14px;
 }
+
+/*plan*/
+.plan {
+    margin-top: -1px;
+    padding-bottom: 100px;
+    background: url("../images/plan-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.plan__box {
+    text-align: center;
+}
+.plan__box circle,
+.plan__box text,
+foreignObject {
+    font-size: 18px;
+    transition: all .5s;
+    cursor: pointer;
+}
+.plan__box g:hover circle {
+    r: 20px;
+    fill: #036CCA;
+}
+.plan__box g:hover text {
+    font-size: 36px;
+    fill: #036CCA;
+}
+foreignObject {
+    text-align: left;
+}
+.plan__box g:hover foreignObject {
+    font-size: 22px;
+    color: #036CCA;
+}
