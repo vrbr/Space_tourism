@@ -493,3 +493,45 @@ foreignObject {
     justify-content: flex-end;
     margin-left: auto;
 }
+
+/*footer*/
+.footer {
+    padding: 100px 0 150px;
+    background: url("../images/footer-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.footer__inner {
+    display: flex;
+    justify-content: flex-end;
+}
+.footer__text {
+    margin-right: 50px;
+    width: 165px;
+}
+.footer__text p + p {
+    margin-top: 50px;
+}
+.footer__menu {
+    margin-right: 95px;
+    width: 120px;
+    list-style: none;
+}
+.footer__menu-item,
+.footer__links-item {
+    margin-bottom: 20px;
+}
+.footer__menu-link,
+.footer__links-link {
+    transition: color .5s;
+    text-transform: uppercase;
+}
+.footer__menu-link:hover,
+.footer__links-link:hover {
+    color: #CB0E0E;
+}
+.footer__links {
+    width: 165px;
+    list-style: none;
+}
