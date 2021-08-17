@@ -17,6 +17,9 @@
       <div class="header__inner">
         <div class="header__top">
           <nav class="menu">
+            <button class="menu-btn">
+              <span></span>
+            </button>
             <ul class="menu__list">
               <li class="menu__item">
                 <a href="#" class="menu__link">О нас</a>
@@ -79,11 +82,11 @@
                 <td class="about__table-td">вернешься?</td>
               </tr>
               <tr class="about__table-tr">
-                <td class="about__table-td">1<span>час</span></td>
-                <td class="about__table-td">80<span>км</span></td>
-                <td class="about__table-td">4-5<span>мин</span></td>
-                <td class="about__table-td">250<span>тыс. дол</span></td>
-                <td class="about__table-td">99<span>%</span></td>
+                <td class="about__table-td" aria-label="время в пути">1<span>час</span></td>
+                <td class="about__table-td" aria-label="расстояние">80<span>км</span></td>
+                <td class="about__table-td" aria-label="в невесомости">4-5<span>мин</span></td>
+                <td class="about__table-td" aria-label="стоимость">250<span>тыс. дол</span></td>
+                <td class="about__table-td" aria-label="вернешься?">99<span>%</span></td>
               </tr>
             </table>
             <button class="button">ЗАБРОНИРОВАТЬ ПОЛЕТ</button>
@@ -110,11 +113,11 @@
                 <td class="about__table-td">вернешься?</td>
               </tr>
               <tr class="about__table-tr">
-                <td class="about__table-td">10<span>мин</span></td>
-                <td class="about__table-td">100<span>км</span></td>
-                <td class="about__table-td">4-5<span>мин</span></td>
-                <td class="about__table-td">250<span>тыс. дол</span></td>
-                <td class="about__table-td">99<span>%</span></td>
+                <td class="about__table-td" aria-label="время в пути">10<span>мин</span></td>
+                <td class="about__table-td" aria-label="расстояние">100<span>км</span></td>
+                <td class="about__table-td" aria-label="в невесомости">4-5<span>мин</span></td>
+                <td class="about__table-td" aria-label="стоимость">250<span>тыс. дол</span></td>
+                <td class="about__table-td" aria-label="вернешься?">99<span>%</span></td>
               </tr>
             </table>
             <button class="button">ЗАБРОНИРОВАТЬ ПОЛЕТ</button>
@@ -142,11 +145,11 @@
                 <td class="about__table-td">вернешься?</td>
               </tr>
               <tr class="about__table-tr">
-                <td class="about__table-td">150<span>дней</span></td>
-                <td class="about__table-td">55<span>млн. км</span></td>
-                <td class="about__table-td">много<span>мин</span></td>
-                <td class="about__table-td">10<span>млрд. дол</span></td>
-                <td class="about__table-td">1<span>%</span></td>
+                <td class="about__table-td" aria-label="время в пути">150<span>дней</span></td>
+                <td class="about__table-td" aria-label="расстояние">55<span>млн. км</span></td>
+                <td class="about__table-td" aria-label="в невесомости">много<span>мин</span></td>
+                <td class="about__table-td" aria-label="стоимость">10<span>млрд. дол</span></td>
+                <td class="about__table-td" aria-label="вернешься?">1<span>%</span></td>
               </tr>
             </table>
             <button class="button">ЗАБРОНИРОВАТЬ ПОЛЕТ</button>
@@ -201,13 +204,36 @@
             </foreignObject>
           </g>
           </svg>
+          <ul class="plan__box-list">
+            <li class="plan__box-item">
+              Выбираете программу
+            </li>
+            <li class="plan__box-item">
+              Оплачиваете
+            </li>
+            <li class="plan__box-item">
+              Какая-то будет подготовка
+            </li>
+            <li class="plan__box-item">
+              Садимся. Летим. Невесомость
+            </li>
+            <li class="plan__box-item">
+              Делаем фото в инстаграм
+            </li>
+            <li class="plan__box-item">
+              Едим из тюбиков: 5 видов меню на выбор (веган, спорт, безлактозное, безглютеновое, обычное)
+            </li>
+            <li class="plan__box-item">
+              Приземляемся, но это не точно
+            </li>
+          </ul>
         </div>
       </div>
     </section>
     <section class="reservation">
       <div class="container">
         <div class="reservation__inner">
-          <h2 class="title">Успей<br>забронировать!</h2>
+          <h2 class="title reservation__title">Успей<br>забронировать!</h2>
           <p class="reservation__text">Руководство Virgin Galactic надеется, что массовые суборбитальные космические полеты начнутся до 2022 года. Компания уже несколько лет продает билеты на такие полеты по 250 тыс долл.
           </p>
           <p class="reservation__text">Virgin Galactic получила задатков более чем 80 млн долл, а количество желающих превышает 600 человек.
@@ -249,7 +275,7 @@
       </div>
       <div class="services">
         <div class="container">
-          <h2 class="title">Дополнительные<br>услуги</h2>
+          <h2 class="title services__title">Дополнительные<br>услуги</h2>
           <div class="services__inner">
             <div class="services__box-list">
               <p class="serviceslist-title">С Вами полетит профессиональный фотограф</p>
